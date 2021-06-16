@@ -13,7 +13,7 @@ export default function Education() {
       <br />
       <br />
       <div className=" d-flex align-items-baseline">
-        <i class="fas fa-graduation-cap fa-2x"></i>
+        <i className="fas fa-graduation-cap fa-2x"></i>
         <h5 className="ms-2 ">
           <b> Ram Lal Anand College / </b>University of Delhi
         </h5>
@@ -27,7 +27,7 @@ export default function Education() {
       <br />
       <br />
       <div className=" d-flex align-items-baseline">
-        <i class="fas fa-user-graduate fa-2x"></i>
+        <i className="fas fa-user-graduate fa-2x"></i>
         <h5 className="ms-3 ">
           <b>Notre Dame School / </b>CBSE
         </h5>
