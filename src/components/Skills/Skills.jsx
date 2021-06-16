@@ -34,6 +34,8 @@ export default function Skills() {
         <div className="container mt-4 d-flex flex-wrap justify-content-evenly skills">
             <img className="m-2 img-fluid" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-256.png" alt="" />
             <img className="m-2 img-fluid" src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jenkins-256.png" alt="" />
+            <img src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-256.png" alt="" />
+            <img src="https://cdn4.iconfinder.com/data/icons/logos-3/512/mongodb-2-256.png" alt="" />
         </div>
 
         <br />
