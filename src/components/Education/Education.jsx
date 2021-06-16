@@ -36,6 +36,9 @@ export default function Education() {
         <h6>2012-2014 , Badarpur , New Delhi</h6>
         <p>Graduated High School in Science stream with an aggregate of 82%.</p>
       </div>
+      <br />
+    <br />
     </div>
+    
   );
 }

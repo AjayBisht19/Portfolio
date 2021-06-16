@@ -36,6 +36,10 @@ export default function Skills() {
             <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-256.png" alt="" />
             <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jenkins-256.png" alt="" />
         </div>
+
+        <br />
+        <br />
+        <br />
         </>
     )
 }
