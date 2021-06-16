@@ -1,27 +1,26 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <>
-      <nav class="navbar nav mt-4 navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+      <nav className="navbar nav mt-4 navbar-expand-lg navbar-dark bg-dark">
+        <div className="container-fluid">
           <div
-            class="collapse d-flex justify-content-evenly navbar-collapse"
+            className="collapse d-flex justify-content-evenly navbar-collapse"
             id="navbarNavAltMarkup"
           >
-            <div class="navbar-nav">
-              <a class="navbar-brand" href="#">
+            <div className="navbar-nav">
+              <NavLink to="/" className="navbar-brand me-5 ">
                 Education
-              </a>
-              <a class="navbar-brand" href="#">
+              </NavLink>
+
+              <NavLink to="/projects" className="navbar-brand me-5 ">
                 Projects
-              </a>
-              <a class="navbar-brand" href="#">
-                About
-              </a>
-              <a class="navbar-brand" href="#">
-                Training
-              </a>
+              </NavLink>
+              <NavLink to="/skills" className="navbar-brand me-5 ">
+                Skills
+              </NavLink>
             </div>
           </div>
         </div>

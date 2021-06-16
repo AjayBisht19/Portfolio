@@ -38,3 +38,23 @@ code {
   font-family: "Russo One", sans-serif;
 
 }
+
+.card img {
+  height: 250px;
+  object-fit: fit;
+}
+
+.card{
+  border: 2px solid grey;
+  transition: 0.3s;
+}
+
+.card:hover{
+  margin-top: 8px;
+}
+
+.skills img{
+  width: 100px;
+}
+
+
