@@ -5,7 +5,9 @@ import logo  from "../../images/logo.png";
 export default function Header() {
     return (
         <>
-           <div className="container text-center bg-primary p-5 mt-4 rounded-6 header">
+           <div className="container text-center   mt-4 header">
+               <div className="bg-primary mx-2 p-5 rounded-6 ">
+
                <div className="row">
                    <div className="col-md-9 text-start">
                        <div >
@@ -19,6 +21,7 @@ export default function Header() {
                    </div>
                </div>
                 
+               </div>
            </div>
         </>
     )

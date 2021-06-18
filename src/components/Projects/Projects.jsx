@@ -7,7 +7,7 @@ import QuizApp  from "../../images/QuizApp.png";
 export default function Projects() {
   return (
     <div className="container mt-4 d-flex flex-wrap justify-content-evenly">
-      <div className="card me-5 mb-5" style={{width:"300px"}}>
+      <div className="card mb-5" style={{width:"300px"}}>
         <img src={Learner} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Learner's Academy</h5>
@@ -19,7 +19,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="card me-5 mb-5" style={{width:"300px"}}>
+      <div className="card mb-5" style={{width:"300px"}}>
         <img src={Medicare} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Medicare</h5>
@@ -32,7 +32,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="card me-5 mb-5" style={{width:"300px"}}>
+      <div className="card mb-5" style={{width:"300px"}}>
         <img src={SportyShoes} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Sporty Shoes</h5>
@@ -43,7 +43,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="card me-5 mb-5" style={{width:"300px"}}>
+      <div className="card mb-5" style={{width:"300px"}}>
         <img src={QuizApp} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Quiz App</h5>
