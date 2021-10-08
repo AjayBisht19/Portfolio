@@ -6,8 +6,8 @@ export default function Education() {
       <div className=" d-flex align-items-baseline">
         <i className="fab fa-dev fa-2x"></i>
         <h5 className="ms-2 ">
-          Pursuing Post Graduate program in Full Stack Java development from
-          Simplilearn (Dec. 2020 - present)
+          Master's program in Full Stack Java development from
+          Simplilearn (Dec. 2020 - June 2021)
         </h5>
       </div>
       <br />

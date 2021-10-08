@@ -8,15 +8,17 @@ import Skills from "./components/Skills/Skills.jsx";
 import Animate from "./components/Animate/Animate.jsx";
 
 import "./App.css";
+import Home from "./components/Home/Home.jsx";
 
 function App() {
   return (
     <>
-      <Animate />
+      {/* <Animate />
       <Header />
-      <Navbar /> <br />
+      <Navbar /> <br /> */}
       <Switch>
-        <Route exact path="/" component={Education} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/education" component={Education} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/skills" component={Skills} />
       </Switch>

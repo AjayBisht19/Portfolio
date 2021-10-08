@@ -11,7 +11,7 @@ export default function Navbar() {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
-              <NavLink to="/" className="navbar-brand me-5 ">
+              <NavLink to="/education" className="navbar-brand me-5 ">
                 Education
               </NavLink>
 
