@@ -1,2 +1,4 @@
-FROM nginx:1.17.1-alpine
-COPY /build /usr/share/nginx/html
+FROM tomcat:8.0.51-jre-alpine
+mkdir /usr/local/tomcat/webapps/eoffice
+COPY ./build/. /usr/local/tomcat/webapps/eoffice/.
+CMD [“catalina.sh”, “run”]
