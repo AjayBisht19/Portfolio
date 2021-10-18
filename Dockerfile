@@ -1,5 +1,5 @@
 FROM tomcat:8.0.51-jre-alpine
-WORKDIR /usr/local/tomcat/webapps
-mkdir eoffice
+RUN cd /usr/local/tomcat/webapps
+RUN mkdir eoffice
 COPY ./build/. /usr/local/tomcat/webapps/eoffice/.
 CMD [“catalina.sh”, “run”]
