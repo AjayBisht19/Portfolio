@@ -13,9 +13,9 @@ import Home from "./components/Home/Home.jsx";
 function App() {
   return (
     <>
-      {/* <Animate />
+       <Animate />
       <Header />
-      <Navbar /> <br /> */}
+      <Navbar /> <br /> 
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/education" component={Education} />

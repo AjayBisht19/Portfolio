@@ -11,7 +11,7 @@ export default function Animate() {
            steps={
                [
                    'Hi, I am  Ajay Bisht.',1000,
-                   'I am a Full Stack Web developer.', 1000,
+                   'I am a Full Stack Java developer.', 1000,
 
                ]
            }

@@ -11,9 +11,9 @@ export default function Header() {
                <div className="row">
                    <div className="col-md-9 text-start">
                        <div >
-                            <img className="mt-4 me-4 logo" src={logo} alt="logo"  />
+                            <img className="mt-4 me-3 logo" src={logo} alt="logo"  />
                             <br />
-                            <h3 className="m-4 web text-white">Full Stack Web Developer</h3>
+                            <h3 className="m-3 py-2 web text-white">Full Stack Java Developer</h3>
                         </div>
                    </div>
                    <div className="col-md-3">

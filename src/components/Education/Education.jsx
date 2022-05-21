@@ -3,15 +3,15 @@ import React from "react";
 export default function Education() {
   return (
     <div className="container mt-4">
-      <div className=" d-flex align-items-baseline">
+      {/* <div className=" d-flex align-items-baseline">
         <i className="fab fa-dev fa-2x"></i>
         <h5 className="ms-2 ">
           Master's program in Full Stack Java development from
-          Simplilearn (Dec. 2020 - June 2021)
+          Simplilearn 
         </h5>
-      </div>
-      <br />
-      <br />
+      </div> */}
+      {/* <br /> */}
+      {/* <br /> */}
       <div className=" d-flex align-items-baseline">
         <i className="fas fa-graduation-cap fa-2x"></i>
         <h5 className="ms-2 ">
@@ -19,7 +19,7 @@ export default function Education() {
         </h5>
       </div>
       <div className="mx-5">
-        <h6>2014-2017 , Satya Niketan , New Delhi</h6>
+        <h6> Satya Niketan , New Delhi</h6>
         <p>
           Graduated with honours in Computer Science with an aggregate of 83.04%
         </p>
@@ -33,7 +33,7 @@ export default function Education() {
         </h5>
       </div>
       <div className="mx-5">
-        <h6>2012-2014 , Badarpur , New Delhi</h6>
+        <h6> Badarpur , New Delhi</h6>
         <p>Graduated High School in Science stream with an aggregate of 82%.</p>
       </div>
       <br />

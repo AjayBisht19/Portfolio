@@ -15,7 +15,7 @@ export default function Projects() {
             J2EE, Servelt and JSP and MySQL database.
           </p>
           <br />
-          <a type="button" href="https://github.com/AjayBisht19/Learner_Academy" className="btn btn-light" rel="noreferrer" target="_blank">GitHub</a>
+          {/* <a type="button" href="https://github.com/AjayBisht19/Learner_Academy" className="btn btn-light" rel="noreferrer" target="_blank">GitHub</a> */}
         </div>
       </div>
 
@@ -26,8 +26,8 @@ export default function Projects() {
           <p className="card-text">
             Spring Boot, Spring security, JWT authentication, Angular 11 and MySQL database.
           </p><br />
-          <a type="button" href="https://github.com/AjayBisht19/MedicareFrontend" className="btn btn-light btn-sm me-2" rel="noreferrer" target="_blank">Frontend</a>
-          <a type="button" href="https://github.com/AjayBisht19/MedicareBackend" className="btn btn-light btn-sm" rel="noreferrer" target="_blank">Backend</a>
+          {/* <a type="button" href="https://github.com/AjayBisht19/MedicareFrontend" className="btn btn-light btn-sm me-2" rel="noreferrer" target="_blank">Frontend</a>
+          <a type="button" href="https://github.com/AjayBisht19/MedicareBackend" className="btn btn-light btn-sm" rel="noreferrer" target="_blank">Backend</a> */}
 
         </div>
       </div>
@@ -39,7 +39,7 @@ export default function Projects() {
           <p className="card-text">
           Spring Boot, Spring security, ThymeLeaf and MySQL database.
           </p> <br />
-          <a type="button" href="https://github.com/AjayBisht19/sportyshoes" className="btn btn-light" rel="noreferrer" target="_blank">GitHub</a>          
+          {/* <a type="button" href="https://github.com/AjayBisht19/sportyshoes" className="btn btn-light" rel="noreferrer" target="_blank">GitHub</a>           */}
         </div>
       </div>
 
@@ -50,7 +50,7 @@ export default function Projects() {
           <p className="card-text">
           Spring Boot, Angular 11 and MySQL database.
           </p> <br />
-          <a type="button" href="https://github.com/AjayBisht19/Quiz-app" className="btn btn-light" rel="noreferrer" target="_blank">GitHub</a>
+          {/* <a type="button" href="https://github.com/AjayBisht19/Quiz-app" className="btn btn-light" rel="noreferrer" target="_blank">GitHub</a> */}
         </div>
       </div>
     </div>
